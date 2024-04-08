@@ -1,0 +1,35 @@
+# Ignore specific files
+git status -u
+config.js
+
+# Ignore directories
+fixtures/
+node_modules/
+screenshots/
+support/
+reports/
+downloads/
+
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+*.swp
+*.swo
+.vscode/
+
+# Node.js
+npm-debug.log
+yarn-error.log
+
+# Compiled files
+*.log
+*.bak
+*.tmp
+*.pyc
+
+# Dependency directories
+.pycache/
+__pycache__/
